@@ -1,5 +1,5 @@
 # dashboard.sh
-sudo kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.2.0/aio/deploy/recommended.yaml
 
 cat <<EOF > dashboard-adminuser.yaml
 apiVersion: v1

@@ -9,7 +9,7 @@ MASTER_IP_START = 1
 NODE_IP_START = 2
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/bionic64"
+  config.vm.box = "ubuntu/focal64"
   config.vm.box_check_update = false
   # Provision Master Nodes
   (1..NUM_MASTER_NODE).each do |i|
