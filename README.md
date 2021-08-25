@@ -17,6 +17,7 @@ Pasos a seguir:
 - ./resources/init-cluster/01-advertise.sh
 - ./resources/init-cluster/02-preflights.sh
 - ./resources/init-cluster/03-network.sh
+- unir los nodos (el comando lo tenemos en un fichero ubicado en /home/vagrant/)
 - ./resources/init-cluster/04-label.sh
 - ./resources/init-cluster/05-metrics-server.sh
 - ./resources/init-cluster/06-dashboard.sh
