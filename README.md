@@ -14,6 +14,7 @@ Pasos a seguir:
 - colocarse en directorio del Vagrantfile
 - vagrant up
 - vagrant ssh kubemaster
+- dos2unix ./resources/init-cluster/*
 - ./resources/init-cluster/01-advertise.sh
 - ./resources/init-cluster/02-preflights.sh
 - ./resources/init-cluster/03-network.sh
